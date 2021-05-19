@@ -10,7 +10,7 @@ public class Student extends User{
 	public void setTakenCourses(String takenCourses) {
 		this.takenCourses = takenCourses;
 	}
-	public Student(String name, String email,int id, String takenCourses) {
+	public Student(String name, int id, String email, String takenCourses) {
 		super(name,email,id);
 		this.setTakenCourses(takenCourses);
 	}

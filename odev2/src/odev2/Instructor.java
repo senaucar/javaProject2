@@ -12,7 +12,7 @@ public class Instructor extends User{
 		this.givenCourses = givenCourses;
 	}
 	
-	public Instructor(String name, String email, int id, String givenCourse) {
+	public Instructor(String name, int id, String email, String givenCourse) {
 		super(name,email,id);
 		this.setGivenCourses(givenCourses);
 	}
